@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OpenCog-Unity3D-Game
 ====================
 
@@ -19,3 +20,9 @@ Use prefabs for everything.  The only game objects in the scene that should not 
 Don't use direct-references or link instances to instances whenever possible.  Try to make links automatic by having the instance find the target instance by its tag.  Linking to prefabs from instances is ok.
 Don't use RequiredComponent attribute.  Use GetSafeComponent instead.  This is an extension for the base UnityEngine GameObject class which allows for safe retrieval of components.  The RequiredComponent attribute is a hassel normally, since it can often block you from making changes in the editor.
 Don't use different idioms to do the same thing.  In many cases there are more than one idiomatic way to do things. In such cases, choose one to use throughout the project.  We prefer coroutines over state machines, nested prefabs over linked prefabs, protobuffers over XML serialization, linq/lambda style over standard iteration, self registration over global search, finding objects by tag over by name, etc.  Learn as you code.
+=======
+unity3d-opencog-game
+====================
+
+A Unity3D Game World for OpenCog
+>>>>>>> master
